@@ -298,21 +298,6 @@ class Linkedlist{
       }
     }
 
-//   void removeduplicate() {
-//   Node? current = head;
-//   while (current != null) {
-//     Node? runner = current;
-//     while (runner!.next != null) {
-//       if (runner.next!.data == current.data) {
-//         runner.next = runner.next!.next; // Skip the duplicate node
-//       } else {
-//         runner = runner.next;
-//       }
-//     }
-//     current = current.next;
-//   }
-// }
-
 void removeDuplicate(){
   Node? current =head;
   while(current!=null){
